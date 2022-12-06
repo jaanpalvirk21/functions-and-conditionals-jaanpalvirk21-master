@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "test_format_name",
+      "setup": "sudo -H pip3 install 'iniconfig==1.0.1' pytest",
+      "run": "pytest -k test_format_name",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_get_seconds",
+      "setup": "sudo -H pip3 install 'iniconfig==1.0.1' pytest",
+      "run": "pytest -k test_get_seconds",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_color_translator",
+      "setup": "sudo -H pip3 install 'iniconfig==1.0.1' pytest",
+      "run": "pytest -k test_color_translator",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_convert_degrees",
+      "setup": "sudo -H pip3 install 'iniconfig==1.0.1' pytest",
+      "run": "pytest -k test_convert_degrees",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_average_size",
+      "setup": "sudo -H pip3 install 'iniconfig==1.0.1' pytest",
+      "run": "pytest -k test_average_size",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
